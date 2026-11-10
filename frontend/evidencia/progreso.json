@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Mapa: 47 polígonos, hover sin selección, clic y teclado",
+    "pass": true
+  },
+  {
+    "name": "Biblioteca: búsqueda y estado vacío",
+    "pass": false,
+    "error": "locator.selectOption: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('Estado', { exact: true })\u001b[22m\n"
+  },
+  {
+    "name": "Ideas: filtros por municipio, año y tipo",
+    "pass": false,
+    "error": "locator.selectOption: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('Municipio', { exact: true })\u001b[22m\n"
+  },
+  {
+    "name": "Agenda: vacío por defecto, calendario, mes y modo compartido",
+    "pass": true
+  },
+  {
+    "name": "Curso: lecciones, respuesta y constancia impersonal",
+    "pass": true
+  },
+  {
+    "name": "Formulario: campos bloqueados, validación, confirmación y retiro",
+    "pass": true
+  },
+  {
+    "name": "Administración: cambio temporal y trazabilidad simulada",
+    "pass": true
+  },
+  {
+    "name": "Móvil: menú, Escape, selección táctil y foco",
+    "pass": true
+  },
+  {
+    "name": "Todas las rutas y enlaces internos responden 200",
+    "pass": true
+  },
+  {
+    "name": "Rutas inexistentes y electorales devuelven 404",
+    "pass": true
+  },
+  {
+    "name": "Sin errores de JavaScript ni peticiones externas",
+    "pass": true
+  }
+]

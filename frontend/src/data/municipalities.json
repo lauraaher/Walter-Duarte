@@ -1,0 +1,284 @@
+[
+  {
+    "code": "73024",
+    "name": "ALPUJARRA",
+    "slug": "alpujarra",
+    "year": 2024
+  },
+  {
+    "code": "73026",
+    "name": "ALVARADO",
+    "slug": "alvarado",
+    "year": 2024
+  },
+  {
+    "code": "73030",
+    "name": "AMBALEMA",
+    "slug": "ambalema",
+    "year": 2024
+  },
+  {
+    "code": "73043",
+    "name": "ANZOÁTEGUI",
+    "slug": "anzoategui",
+    "year": 2024
+  },
+  {
+    "code": "73055",
+    "name": "ARMERO",
+    "slug": "armero",
+    "year": 2024
+  },
+  {
+    "code": "73067",
+    "name": "ATACO",
+    "slug": "ataco",
+    "year": 2024
+  },
+  {
+    "code": "73124",
+    "name": "CAJAMARCA",
+    "slug": "cajamarca",
+    "year": 2024
+  },
+  {
+    "code": "73148",
+    "name": "CARMEN DE APICALÁ",
+    "slug": "carmen-de-apicala",
+    "year": 2025
+  },
+  {
+    "code": "73152",
+    "name": "CASABIANCA",
+    "slug": "casabianca",
+    "year": 2024
+  },
+  {
+    "code": "73168",
+    "name": "CHAPARRAL",
+    "slug": "chaparral",
+    "year": 2024
+  },
+  {
+    "code": "73200",
+    "name": "COELLO",
+    "slug": "coello",
+    "year": 2024
+  },
+  {
+    "code": "73217",
+    "name": "COYAIMA",
+    "slug": "coyaima",
+    "year": 2024
+  },
+  {
+    "code": "73226",
+    "name": "CUNDAY",
+    "slug": "cunday",
+    "year": 2024
+  },
+  {
+    "code": "73236",
+    "name": "DOLORES",
+    "slug": "dolores",
+    "year": 2024
+  },
+  {
+    "code": "73268",
+    "name": "ESPINAL",
+    "slug": "espinal",
+    "year": 2024
+  },
+  {
+    "code": "73270",
+    "name": "FALAN",
+    "slug": "falan",
+    "year": 2024
+  },
+  {
+    "code": "73275",
+    "name": "FLANDES",
+    "slug": "flandes",
+    "year": 2024
+  },
+  {
+    "code": "73283",
+    "name": "FRESNO",
+    "slug": "fresno",
+    "year": 2024
+  },
+  {
+    "code": "73319",
+    "name": "GUAMO",
+    "slug": "guamo",
+    "year": 2024
+  },
+  {
+    "code": "73347",
+    "name": "HERVEO",
+    "slug": "herveo",
+    "year": 2024
+  },
+  {
+    "code": "73349",
+    "name": "HONDA",
+    "slug": "honda",
+    "year": 2024
+  },
+  {
+    "code": "73001",
+    "name": "IBAGUÉ",
+    "slug": "ibague",
+    "year": 2024
+  },
+  {
+    "code": "73352",
+    "name": "ICONONZO",
+    "slug": "icononzo",
+    "year": 2024
+  },
+  {
+    "code": "73408",
+    "name": "LÉRIDA",
+    "slug": "lerida",
+    "year": 2024
+  },
+  {
+    "code": "73411",
+    "name": "LÍBANO",
+    "slug": "libano",
+    "year": 2024
+  },
+  {
+    "code": "73449",
+    "name": "MELGAR",
+    "slug": "melgar",
+    "year": 2025
+  },
+  {
+    "code": "73461",
+    "name": "MURILLO",
+    "slug": "murillo",
+    "year": 2024
+  },
+  {
+    "code": "73483",
+    "name": "NATAGAIMA",
+    "slug": "natagaima",
+    "year": 2024
+  },
+  {
+    "code": "73504",
+    "name": "ORTEGA",
+    "slug": "ortega",
+    "year": 2024
+  },
+  {
+    "code": "73520",
+    "name": "PALOCABILDO",
+    "slug": "palocabildo",
+    "year": 2024
+  },
+  {
+    "code": "73547",
+    "name": "PIEDRAS",
+    "slug": "piedras",
+    "year": 2024
+  },
+  {
+    "code": "73555",
+    "name": "PLANADAS",
+    "slug": "planadas",
+    "year": 2024
+  },
+  {
+    "code": "73563",
+    "name": "PRADO",
+    "slug": "prado",
+    "year": 2024
+  },
+  {
+    "code": "73585",
+    "name": "PURIFICACIÓN",
+    "slug": "purificacion",
+    "year": 2024
+  },
+  {
+    "code": "73616",
+    "name": "RIOBLANCO",
+    "slug": "rioblanco",
+    "year": 2024
+  },
+  {
+    "code": "73622",
+    "name": "RONCESVALLES",
+    "slug": "roncesvalles",
+    "year": 2024
+  },
+  {
+    "code": "73624",
+    "name": "ROVIRA",
+    "slug": "rovira",
+    "year": 2024
+  },
+  {
+    "code": "73671",
+    "name": "SALDAÑA",
+    "slug": "saldana",
+    "year": 2024
+  },
+  {
+    "code": "73675",
+    "name": "SAN ANTONIO",
+    "slug": "san-antonio",
+    "year": 2024
+  },
+  {
+    "code": "73678",
+    "name": "SAN LUIS",
+    "slug": "san-luis",
+    "year": 2024
+  },
+  {
+    "code": "73443",
+    "name": "SAN SEBASTIÁN DE MARIQUITA",
+    "slug": "san-sebastian-de-mariquita",
+    "year": 2024
+  },
+  {
+    "code": "73686",
+    "name": "SANTA ISABEL",
+    "slug": "santa-isabel",
+    "year": 2024
+  },
+  {
+    "code": "73770",
+    "name": "SUÁREZ",
+    "slug": "suarez",
+    "year": 2024
+  },
+  {
+    "code": "73854",
+    "name": "VALLE DE SAN JUAN",
+    "slug": "valle-de-san-juan",
+    "year": 2024
+  },
+  {
+    "code": "73861",
+    "name": "VENADILLO",
+    "slug": "venadillo",
+    "year": 2024
+  },
+  {
+    "code": "73870",
+    "name": "VILLAHERMOSA",
+    "slug": "villahermosa",
+    "year": 2024
+  },
+  {
+    "code": "73873",
+    "name": "VILLARRICA",
+    "slug": "villarrica",
+    "year": 2024
+  }
+]

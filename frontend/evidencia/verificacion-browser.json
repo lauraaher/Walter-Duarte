@@ -1,0 +1,504 @@
+{
+  "date": "2026-11-10T21:31:26.510Z",
+  "base": "http://127.0.0.1:3000",
+  "routes": [
+    "/",
+    "/mi-historia",
+    "/tolima",
+    "/comunidades",
+    "/ideas",
+    "/actualidad",
+    "/participa",
+    "/herramientas",
+    "/participa/liderazgo",
+    "/participa/voluntariado",
+    "/participa/protege-tus-derechos",
+    "/participa/liderazgo/curso-demo",
+    "/demo/administracion",
+    "/contacto",
+    "/transparencia",
+    "/privacidad",
+    "/terminos",
+    "/accesibilidad",
+    "/tolima/alpujarra",
+    "/tolima/alvarado",
+    "/tolima/ambalema",
+    "/tolima/anzoategui",
+    "/tolima/armero",
+    "/tolima/ataco",
+    "/tolima/cajamarca",
+    "/tolima/carmen-de-apicala",
+    "/tolima/casabianca",
+    "/tolima/chaparral",
+    "/tolima/coello",
+    "/tolima/coyaima",
+    "/tolima/cunday",
+    "/tolima/dolores",
+    "/tolima/espinal",
+    "/tolima/falan",
+    "/tolima/flandes",
+    "/tolima/fresno",
+    "/tolima/guamo",
+    "/tolima/herveo",
+    "/tolima/honda",
+    "/tolima/ibague",
+    "/tolima/icononzo",
+    "/tolima/lerida",
+    "/tolima/libano",
+    "/tolima/melgar",
+    "/tolima/murillo",
+    "/tolima/natagaima",
+    "/tolima/ortega",
+    "/tolima/palocabildo",
+    "/tolima/piedras",
+    "/tolima/planadas",
+    "/tolima/prado",
+    "/tolima/purificacion",
+    "/tolima/rioblanco",
+    "/tolima/roncesvalles",
+    "/tolima/rovira",
+    "/tolima/saldana",
+    "/tolima/san-antonio",
+    "/tolima/san-luis",
+    "/tolima/san-sebastian-de-mariquita",
+    "/tolima/santa-isabel",
+    "/tolima/suarez",
+    "/tolima/valle-de-san-juan",
+    "/tolima/venadillo",
+    "/tolima/villahermosa",
+    "/tolima/villarrica",
+    "/comunidades/empresa-innovacion",
+    "/comunidades/campo-ruralidad",
+    "/comunidades/mujeres-derechos",
+    "/comunidades/juventud-educacion",
+    "/comunidades/liderazgo-control-social",
+    "/ideas/documentos/documento-demo",
+    "/ideas/documentos/nota-demo",
+    "/herramientas/guia-demo",
+    "/herramientas/ficha-demo",
+    "/herramientas/video-demo",
+    "/participa/protege-tus-derechos/corrupcion",
+    "/participa/protege-tus-derechos/violencia-de-genero",
+    "/participa/protege-tus-derechos/maltrato-infantil",
+    "/participa/protege-tus-derechos/maltrato-animal",
+    "/participa/protege-tus-derechos/dano-ambiental",
+    "/participa/protege-tus-derechos/otros-conflictos"
+  ],
+  "checks": [
+    {
+      "name": "Mapa: 47 polígonos, hover sin selección, clic y teclado",
+      "pass": true
+    },
+    {
+      "name": "Biblioteca: búsqueda y estado vacío",
+      "pass": false,
+      "error": "locator.selectOption: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('Estado', { exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "Ideas: filtros por municipio, año y tipo",
+      "pass": false,
+      "error": "locator.selectOption: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('Municipio', { exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "Agenda: vacío por defecto, calendario, mes y modo compartido",
+      "pass": true
+    },
+    {
+      "name": "Curso: lecciones, respuesta y constancia impersonal",
+      "pass": true
+    },
+    {
+      "name": "Formulario: campos bloqueados, validación, confirmación y retiro",
+      "pass": true
+    },
+    {
+      "name": "Administración: cambio temporal y trazabilidad simulada",
+      "pass": true
+    },
+    {
+      "name": "Móvil: menú, Escape, selección táctil y foco",
+      "pass": true
+    },
+    {
+      "name": "Todas las rutas y enlaces internos responden 200",
+      "pass": true
+    },
+    {
+      "name": "Rutas inexistentes y electorales devuelven 404",
+      "pass": true
+    },
+    {
+      "name": "Sin errores de JavaScript ni peticiones externas",
+      "pass": true
+    }
+  ],
+  "responsive": [
+    {
+      "width": 320,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/tolima",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/mi-historia",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/comunidades",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/herramientas",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/ideas",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/actualidad",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/participa",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/participa/liderazgo/curso-demo",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/demo/administracion",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/tolima/ibague",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/comunidades/empresa-innovacion",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/tolima",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/mi-historia",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/comunidades",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/herramientas",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/ideas",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/actualidad",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/participa",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/participa/liderazgo/curso-demo",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/demo/administracion",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/tolima/ibague",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/comunidades/empresa-innovacion",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/tolima",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/mi-historia",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/comunidades",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/herramientas",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/ideas",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/actualidad",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/participa",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/participa/liderazgo/curso-demo",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/demo/administracion",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/tolima/ibague",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/comunidades/empresa-innovacion",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/tolima",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/mi-historia",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/comunidades",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/herramientas",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/ideas",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/actualidad",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/participa",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/participa/liderazgo/curso-demo",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/demo/administracion",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/tolima/ibague",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/comunidades/empresa-innovacion",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/tolima",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/mi-historia",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/comunidades",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/herramientas",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/ideas",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/actualidad",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/participa",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/participa/liderazgo/curso-demo",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/demo/administracion",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/tolima/ibague",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/comunidades/empresa-innovacion",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/tolima",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/mi-historia",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/comunidades",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/herramientas",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/ideas",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/actualidad",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/participa",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/participa/liderazgo/curso-demo",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/demo/administracion",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/tolima/ibague",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/comunidades/empresa-innovacion",
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "failures": [
+    "Biblioteca: búsqueda y estado vacío",
+    "Ideas: filtros por municipio, año y tipo"
+  ],
+  "pass": false
+}
