@@ -43,7 +43,7 @@ export function Home() {
         </div>
         <div className="portrait">
           <Image
-            src="/images/fotografia-inicio.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/fotografia-inicio.png`}
             alt="Persona de espaldas junto a un río, envuelta en una tela amarilla y vinotinto."
             fill
             sizes="(max-width: 600px) calc(100vw - 40px), 50vw"

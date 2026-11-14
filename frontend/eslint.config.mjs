@@ -8,5 +8,5 @@ export default defineConfig([
     files: ["tests/*.cjs"],
     rules: { "@typescript-eslint/no-require-imports": "off" },
   },
-  globalIgnores([".next/**", "next-env.d.ts", "public/**", "evidencia/**"]),
+  globalIgnores([".next/**", ".next-pages/**", "out/**", "next-env.d.ts", "public/**", "evidencia/**"]),
 ]);

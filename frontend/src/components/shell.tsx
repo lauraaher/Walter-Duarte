@@ -38,7 +38,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
             className="logo"
           >
             <Image
-              src="/brand/logo-walter-original.jpg"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/brand/logo-walter-original.jpg`}
               width={130}
               height={70}
               alt="Walter Duarte"
@@ -88,7 +88,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
         <div className="shell footer-grid">
           <div>
             <Image
-              src="/brand/logo-walter-original.jpg"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/brand/logo-walter-original.jpg`}
               width={140}
               height={76}
               alt="Walter Duarte"

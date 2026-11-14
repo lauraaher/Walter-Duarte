@@ -1,3 +1,4 @@
+export const dynamicParams = false;
 import { notFound } from "next/navigation";
 import { documents, communities } from "@/data/content";
 import { DocumentDetail } from "@/components/document-detail";

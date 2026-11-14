@@ -1,9 +1,11 @@
 import type { NextConfig } from "next";
+const isPages = process.env.GITHUB_PAGES === "true";
 const config: NextConfig = {
+  ...(isPages ? { output: "export" as const, trailingSlash: true, images: { unoptimized: true }, basePath: process.env.NEXT_PUBLIC_BASE_PATH || "" } : {}),
   poweredByHeader: false,
   agentRules: false,
   devIndicators: false,
-  async headers() {
+  ...(isPages ? {} : { async headers() {
     return [
       {
         source: "/:path*",
@@ -14,6 +16,6 @@ const config: NextConfig = {
         ],
       },
     ];
-  },
+  } }),
 };
 export default config;

@@ -33,7 +33,7 @@ export function Territory({ compact = false }: { compact?: boolean }) {
   useEffect(() => {
     if (!ready) return;
     let active = true;
-    fetch("/geo/tolima-map.json")
+    fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/geo/tolima-map.json`)
       .then((r) => {
         if (!r.ok) throw Error();
         return r.json();
